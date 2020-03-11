@@ -10,35 +10,35 @@ How to read and use the source data, executable application and detailed experim
 
 (3) To illustrate the  input format of the data, take "**AP2_1.txt**" for example,  the notation corresponding to the paper are given.
 
-> > Unit_Service_Time(min): 3  		// c
-> > max_dollies_per_tug: 6  			//d
-> > max_tugs_per_flight: 4				//m
-> > max_dollies_at_gate: 30			 // n
-> > max_duration(min): 60				//g
-> > speed(km/s): 0.3							//s
-> > tug_cost(S$/tug): 20.0					//r1
-> > travel_cost(S$/km): 0.05				//r2
-> > Gate_Size: 2
-> > 1 2 
-> > travel time Matrix:   // \tau_{ij}
-> > 0.0 0.5 1.0 
-> > 0.5 0.0 0.5 
-> > 1.0 0.5 0.0 
-> > Total_Flight_Number: 14
-> > Gate_ID: 1 Flight_ID: 1 Time_Window: 109 209 Pickup_Baggage: 0 Delivery_Baggage: 9 
-> > Gate_ID: 1 Flight_ID: 2 Time_Window: 252 337 Pickup_Baggage: 0 Delivery_Baggage: 8 
-> > Gate_ID: 1 Flight_ID: 3 Time_Window: 438 538 Pickup_Baggage: 8 Delivery_Baggage: 0 
-> > Gate_ID: 1 Flight_ID: 4 Time_Window: 601 707 Pickup_Baggage: 9 Delivery_Baggage: 10 
-> > Gate_ID: 1 Flight_ID: 5 Time_Window: 775 878 Pickup_Baggage: 10 Delivery_Baggage: 0 
-> > Gate_ID: 1 Flight_ID: 6 Time_Window: 898 1008 Pickup_Baggage: 8 Delivery_Baggage: 5 
-> > Gate_ID: 1 Flight_ID: 7 Time_Window: 1127 1201 Pickup_Baggage: 5 Delivery_Baggage: 0 
-> > Gate_ID: 2 Flight_ID: 8 Time_Window: 57 148 Pickup_Baggage: 0 Delivery_Baggage: 8 
-> > Gate_ID: 2 Flight_ID: 9 Time_Window: 226 322 Pickup_Baggage: 8 Delivery_Baggage: 8 
-> > Gate_ID: 2 Flight_ID: 10 Time_Window: 411 481 Pickup_Baggage: 7 Delivery_Baggage: 4 
-> > Gate_ID: 2 Flight_ID: 11 Time_Window: 552 631 Pickup_Baggage: 5 Delivery_Baggage: 0 
-> > Gate_ID: 2 Flight_ID: 12 Time_Window: 720 771 Pickup_Baggage: 4 Delivery_Baggage: 6 
-> > Gate_ID: 2 Flight_ID: 13 Time_Window: 853 956 Pickup_Baggage: 9 Delivery_Baggage: 9 
-> > Gate_ID: 2 Flight_ID: 14 Time_Window: 1038 1122 Pickup_Baggage: 0 Delivery_Baggage: 6 
+Unit_Service_Time(min): 3  		// c
+max_dollies_per_tug: 6  			//d
+max_tugs_per_flight: 4				//m
+max_dollies_at_gate: 30			 // n
+max_duration(min): 60				//g
+speed(km/s): 0.3							//s
+tug_cost(S$/tug): 20.0					//r1
+travel_cost(S$/km): 0.05				//r2
+Gate_Size: 2
+1 2 
+travel time Matrix:   // \tau_{ij}
+0.0 0.5 1.0 
+0.5 0.0 0.5 
+1.0 0.5 0.0 
+Total_Flight_Number: 14
+Gate_ID: 1 Flight_ID: 1 Time_Window: 109 209 Pickup_Baggage: 0 Delivery_Baggage: 9 
+Gate_ID: 1 Flight_ID: 2 Time_Window: 252 337 Pickup_Baggage: 0 Delivery_Baggage: 8 
+Gate_ID: 1 Flight_ID: 3 Time_Window: 438 538 Pickup_Baggage: 8 Delivery_Baggage: 0 
+Gate_ID: 1 Flight_ID: 4 Time_Window: 601 707 Pickup_Baggage: 9 Delivery_Baggage: 10 
+Gate_ID: 1 Flight_ID: 5 Time_Window: 775 878 Pickup_Baggage: 10 Delivery_Baggage: 0 
+Gate_ID: 1 Flight_ID: 6 Time_Window: 898 1008 Pickup_Baggage: 8 Delivery_Baggage: 5 
+Gate_ID: 1 Flight_ID: 7 Time_Window: 1127 1201 Pickup_Baggage: 5 Delivery_Baggage: 0 
+Gate_ID: 2 Flight_ID: 8 Time_Window: 57 148 Pickup_Baggage: 0 Delivery_Baggage: 8 
+Gate_ID: 2 Flight_ID: 9 Time_Window: 226 322 Pickup_Baggage: 8 Delivery_Baggage: 8 
+Gate_ID: 2 Flight_ID: 10 Time_Window: 411 481 Pickup_Baggage: 7 Delivery_Baggage: 4 
+Gate_ID: 2 Flight_ID: 11 Time_Window: 552 631 Pickup_Baggage: 5 Delivery_Baggage: 0 
+Gate_ID: 2 Flight_ID: 12 Time_Window: 720 771 Pickup_Baggage: 4 Delivery_Baggage: 6 
+Gate_ID: 2 Flight_ID: 13 Time_Window: 853 956 Pickup_Baggage: 9 Delivery_Baggage: 9 
+Gate_ID: 2 Flight_ID: 14 Time_Window: 1038 1122 Pickup_Baggage: 0 Delivery_Baggage: 6 
 
 ## 2. Executable application 
 
