@@ -10,7 +10,7 @@ How to read and use the source data, executable application and detailed experim
 
 (3) To illustrate the  input format of the data, take "**AP2_1.txt**" for example,  the notation corresponding to the paper are given.
 
-Unit_Service_Time(min): 3  		// c
+Unit_Service_Time(min): 3  		// c \n
 max_dollies_per_tug: 6  			//d
 max_tugs_per_flight: 4				//m
 max_dollies_at_gate: 30			 // n
